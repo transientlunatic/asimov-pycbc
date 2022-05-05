@@ -1,0 +1,10 @@
+"""
+An integration to allow asimov to access PyCBC
+"""
+
+from asimov.pipeline import Pipeline
+
+__version__ = "0.0.1"
+
+class PyCBC(Pipeline):
+    pass
