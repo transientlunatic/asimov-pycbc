@@ -1,8 +1,0 @@
-import unittest
-
-class TestPyCBCIntegration(unittest.TestCase):
-
-    def test_make_config(self):
-        """Check that asimov can make a config file for pycbc."""
-
-        pass
