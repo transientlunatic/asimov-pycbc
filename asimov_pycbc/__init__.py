@@ -19,6 +19,7 @@ class PyCBC(Pipeline):
 
     config_template = importlib.resources.path(__name__, 'pycbc.ini')
     _pipeline_command = "pycbc_inference"
+    name = "pycbc"
 
     def __init__(self, analysis):
         super().__init__(analysis)
